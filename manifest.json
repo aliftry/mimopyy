@@ -1,0 +1,27 @@
+{
+  "id": "/mimopyy/",
+  "name": "Mimopy",
+  "short_name": "Mimopy",
+  "description": "Aplikasi manajemen toko untuk mengelola pricelist, nota, QRIS, dan akun pengguna.",
+  "lang": "id",
+  "start_url": "/mimopyy/",
+  "scope": "/mimopyy/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8F7FF",
+  "theme_color": "#8B7CF6",
+  "icons": [
+    {
+      "src": "/mimopyy/icons/mimopy-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/mimopyy/icons/mimopy-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
