@@ -1,1 +1,14 @@
-[ { "relation": [ "delegate_permission/common.handle_all_urls" ], "target": { "namespace": "android_app", "package_name": "io.github.aliftry.twa", "sha256_cert_fingerprints": [ "21:34:87:7F:D8:33:37:6D:CD:D7:F5:B0:D0:59:C3:29:25:45:12:D9:42:6E:9F:ED:EA:E5:87:64:FB:CA:99:6C" ] } } ]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.aliftry.twa",
+      "sha256_cert_fingerprints": [
+        "21:34:87:7F:D8:33:37:6D:CD:D7:F5:B0:D0:59:C3:29:25:45:12:D9:42:6E:9F:ED:EA:E5:87:64:FB:CA:99:6C"
+      ]
+    }
+  }
+]
