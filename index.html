@@ -3424,6 +3424,19 @@ body.mma-table-fullview-open{overflow:hidden!important}
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!backdrop.hidden)close()});
 })();
 </script>
+  
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/mimopyy/sw.js")
+      .catch((error) => console.error(
+        "Mimopy service worker:", error
+      ));
+  });
+}
+</script>
+
 </body>
 <!-- MIMOPY V39: admin reset email validation delegated to trusted Supabase Edge Function. -->
 <!-- MIMOPY CODE MAP 11: DASHBOARD: sinkronisasi tahap karakter dan teks sapaan. Keep execution order unchanged. -->
